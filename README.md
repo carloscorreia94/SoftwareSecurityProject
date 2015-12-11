@@ -16,3 +16,4 @@ mysql_query,mysql_unbuffered_query,mysql_db_query
 
 Read over project specification and guidelines to run the code
 [HERE](https://github.com/carloscorreia94/SoftwareSecurityProject/blob/master/ssoft_a13.pdf)
+(In Portuguese)
