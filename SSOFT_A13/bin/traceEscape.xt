@@ -1,0 +1,26 @@
+Version: 2.4.0rc1
+File format: 4
+TRACE START [2015-12-04 19:50:17]
+2	1	1	0.015755	130864
+2	2	0	0.084266	132776	require_once	1	C:\xampp\htdocs\config.php	C:\xampp\htdocs\service_churrascos.php	3	0
+3	3	0	0.084487	133392	mysql_connect	0		C:\xampp\htdocs\config.php	7	3	'localhost'	'root'	''
+3	3	1	0.110926	139984
+3	3	R			resource(4) of type (mysql link)
+3	4	0	0.111119	139968	mysql_select_db	0		C:\xampp\htdocs\config.php	8	1	'aeist_mobile'
+3	4	1	0.129287	139976
+3	4	R			TRUE
+2	2	1	0.129507	139920
+2	2	R			1
+2	5	0	0.129718	138160	mysql_escape_string	0		C:\xampp\htdocs\service_churrascos.php	6	1	'30'
+2	5	1	0.130129	138160
+2	5	R			'30'
+2	6	0	0.130220	138344	mysql_query	0		C:\xampp\htdocs\service_churrascos.php	8	1	'select * from churrascos WHERE churrasco_id = 30'
+2	6	1	0.198039	140712
+2	6	R			resource(5) of type (mysql result)
+2	7	0	0.198108	140800	mysql_query	0		C:\xampp\htdocs\service_churrascos.php	9	1	'select * from churrascos WHERE churrasco_id = 30'
+2	7	1	0.199299	142736
+2	7	R			resource(6) of type (mysql result)
+2	8	0	0.199351	142728	xdebug_stop_trace	0		C:\xampp\htdocs\service_churrascos.php	13	0
+			0.199395	142776
+TRACE END   [2015-12-04 19:50:17]
+
